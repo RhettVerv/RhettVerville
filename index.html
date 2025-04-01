@@ -1,33 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rhett Verville</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
-    h1 {
-      font-size: 4rem;
-    }
-    a {
-      margin-top: 20px;
-      font-size: 1.2rem;
-      text-decoration: none;
-      color: #0077cc;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Rhett Verville</h1>
-  <a href="RhettVervilleResume.pdf" target="_blank">View My Resume</a>
+  <div class="container">
+    <header>
+      <h1>Rhett Verville</h1>
+      <p>Developer • Designer • Problem Solver</p>
+    </header>
+
+    <main>
+      <section class="about">
+        <h2>About Me</h2>
+        <p>
+          Hi! I'm Rhett, and I love building clean, functional websites. 
+          Whether it's frontend, backend, or design—I’m always looking to learn something new and create cool stuff.
+        </p>
+      </section>
+
+      <section class="resume">
+        <h2>Resume</h2>
+        <a class="resume-btn" href="RhettVervilleResume.pdf" target="_blank">View My Resume (PDF)</a>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Rhett Verville</p>
+    </footer>
+  </div>
 </body>
 </html>
